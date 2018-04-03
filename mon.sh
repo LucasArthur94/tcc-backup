@@ -1,33 +1,82 @@
 #!/bin/bash
+#
+# Simple xgh script for monitoring .tex and .bib files changes to auto compile pdf
+# Author: Daniel Norio (dnorio, danieltakasu@gmail.com)
+#
+## Modes of operation
+# No arguments - Normal : show only status messages
+# -v           - Verbose: show status messages and texlive and bibtex messages
+# -s           - Silent : show no message at all
+##
 
-# Nomes dos arquivos para serem vigiados
-MAINNAME="tcc.tex"
+#Compilation sequence
+compile()
+{
+  latex ${MAINFILE}
+  bibtex tcc
+  latex ${MAINFILE}
+  pdflatex ${MAINFILE}
+}
 
-CAPSNAMES=("tcc.tex" "refs.bib" "introducao/objetivo.tex" "introducao/motivacao.tex" "introducao/justificativa.tex" "introducao/organizacao_do_trabalho.tex")
+# Constants
+MAINFILE="tcc.tex"
 
-# Salva o horario de cada arquivo
-for v1 in 0 1 2 3 4 5
+# Main logic, do not change code below
+
+TEXFILES=(`find . -name '*.tex' -o -name '*.bib'`)
+NUMFILES=${#TEXFILES[@]} 
+
+VERBOSE=false
+NOTSILENT=true
+
+# Simple check for verbose
+if [[ "$@" == "v" ]]
+then
+  VERBOSE=true
+fi
+
+# Simple check for silent
+if [[ "$@" == "s" ]]
+then
+  NOTSILENT=false
+  VERBOSE=false
+fi
+
+if $NOTSILENT; then
+echo "List of files being watched:"
+  for v1 in "${TEXFILES[@]}"
+    do
+      echo $v1
+  done
+fi
+
+# Save file time
+for (( i = 0; i <${NUMFILES}; i++));
 do
-  CAPNAME="${CAPSNAMES[$v1]}"
-  LTIMECAPS[$v1]=`stat -c %Z "$CAPNAME"`
+  TEXFILE="${TEXFILES[$i]}"
+  LTIMES[$i]=`stat -c %Z "$TEXFILE"`
 done
 
 while true    
 do
 
-  # Verifica se algum capitulo foi alterado
-  for v1 in 0 1 2 3 4 5
+  # Checks if some file changed
+  for (( i = 0; i <${NUMFILES}; i++));
   do
-    CAPNAME="${CAPSNAMES[$v1]}"
-    ATIMECAPS[$v1]=`stat -c %Z "$CAPNAME"`
-    if [[ "${ATIMECAPS[$v1]}" != "${LTIMECAPS[$v1]}" ]]
-    then
-      echo "Recompiling due changes of ${CAPSNAMES[$v1]}..."
-      LTIMECAPS[$v1]=${ATIMECAPS[$v1]}
-      latex ${MAINNAME}
-      bibtex tcc
-      latex ${MAINNAME}
-      pdflatex ${MAINNAME}
+    TEXFILE="${TEXFILES[$i]}"
+    ATIMES[$i]=`stat -c %Z "$TEXFILE"`
+    if [[ "${ATIMES[$i]}" != "${LTIMES[$i]}" ]]; then
+      if $NOTSILENT; then
+        echo "Recompiling due changes of ${TEXFILES[$i]} ..."
+      fi
+      LTIMES[$i]=${ATIMES[$i]}
+      if $VERBOSE; then
+        compile
+      else
+        { 
+          compile 
+        } &> /dev/null
+      fi
     fi
   done
 

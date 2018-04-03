@@ -162,12 +162,16 @@ Lista de símbolos...
 \include{introducao/organizacao_do_trabalho}
 
 \part{Aspectos Conceituais}
+
+% \include{aspectos_conceituais/casos_de_uso}
+% \include{aspectos_conceituais/levantamento_requisitos}
+% \include{aspectos_conceituais/continuous_delivery}
+
 \part{Tecnologias Utilizadas}
 \part{Metodologia de Trabalho}
-
-% \include{levantamento_requisitos}
-
 \part{Especificação de Requisitos do Sistema}
+
+% =========================================
 \part{Projeto e Implementação}
 \part{Testes e Implementação}
 \part{Considerações Finais}
@@ -176,21 +180,6 @@ Lista de símbolos...
 % \include{contribuicoes}
 % \include{perspectivas_continuidade}
 	
-\chapter{Capítulo com epígrafe}
-\capepigrafe[0.5\textwidth]{``Frase espirituosa de um autor famoso''}{Autor famoso}
-
-\blindtext
-
-\begin{citacaoLonga}
-	\blindtext
-\end{citacaoLonga}
-
-\blindtext
-
-
-
-\blinddocument
-
 
 % ========== Referências ==========
 % --- IEEE ---
@@ -199,20 +188,19 @@ Lista de símbolos...
 
 % --- ABNT (requer ABNTeX 2) ---
 %	http://www.ctan.org/tex-archive/macros/latex/contrib/abntex2
-%\bibliographystyle{abntex2-num}
+\bibliographystyle{abntex2-num}
 
-%\bibliography{}
+\bibliography{}
 
 
 % ========== Apêndices (opcional) ==========
 \apendice
-\chapter{}
-\chapter{Beta}
+\include{apendices/levantamento_requisitos}
 
 
 % ========== Anexos (opcional) ==========
 \anexo
-\chapter{Alpha}
-\chapter{}
+\include{anexos/documento_visao}
+\include{anexos/diagramas_bpmn}
 
 \end{document}

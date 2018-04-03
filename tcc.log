@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.14)  16 MAR 2018 23:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.14)  3 APR 2018 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -673,7 +673,15 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangrammax=\count136
 ) (./tcc.aux
 (./introducao/objetivo.aux) (./introducao/motivacao.aux)
-(./introducao/organizacao_do_trabalho.aux))
+(./introducao/justificativa.aux) (./introducao/organizacao_do_trabalho.aux)
+(./apendices/levantamento_requisitos.aux) (./anexos/documento_visao.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+) (./anexos/diagramas_bpmn.aux))
 \openout1 = `tcc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -877,15 +885,7 @@ less on input line 157.
 
  (./introducao/objetivo.tex
 Cap\'{\i }tulo 1.
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 8.
-
 )
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 159.
-
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 159.
@@ -896,36 +896,47 @@ less on input line 159.
 ]
 \openout2 = `introducao/motivacao.aux'.
 
- (./introducao/motivacao.tex) [14
+ (./introducao/motivacao.tex
+Cap\'{\i }tulo 2.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 160.
+
+[14
+
 
 
 ]
-\openout2 = `introducao/organizacao_do_trabalho.aux'.
+\openout2 = `introducao/justificativa.aux'.
 
-
-(./introducao/organizacao_do_trabalho.tex
-Cap\'{\i }tulo 2.
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 8.
-
+ (./introducao/justificativa.tex
+Cap\'{\i }tulo 3.
 )
 
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 162.
-
-
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 162.
+less on input line 161.
 
 [15
 
 
 
-] [16
+]
+\openout2 = `introducao/organizacao_do_trabalho.aux'.
+
+ (./introducao/organizacao_do_trabalho.tex
+Cap\'{\i }tulo 4.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 162.
+
+[16
+
 
 
 ] [17
+
 
 ] [18
 
@@ -937,126 +948,90 @@ less on input line 162.
 
 ] [22
 
-]
-Cap\'{\i }tulo 3.
+] [23
 
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 183.
+] (./tcc.bbl
 
+LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 186.
-
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 189.
-
+)
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 192.
-
-[23
-
-]
-Cap\'{\i }tulo 4.
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 192.
-
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 192.
-
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 192.
-
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 192.
+less on input line 198.
 
 [24
 
+
 ]
+\openout2 = `apendices/levantamento_requisitos.aux'.
 
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 192.
-
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 192.
-
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 192.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 192.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 192.
- [25]
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 192.
-
-[26]
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 192.
-
-[27]
+ (./apendices/levantamento_requisitos.tex
 Apendice A.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 210.
+Package blindtext Warning: brazil not defined, using English instead.
+(blindtext)                 on input line 8.
 
-[28
+)
+
+Package blindtext Warning: brazil not defined, using English instead.
+(blindtext)                 on input line 198.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 198.
+
+[25
+
 
 ]
-Apendice B.
+\openout2 = `anexos/documento_visao.aux'.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 215.
-
-[29
-
-]
+ (./anexos/documento_visao.tex
 Anexo A.
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 216.
+less on input line 52.
 
-[30
+[26
+
+
 
 ]
-Anexo B.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
+ [27]
+[28] [29] [30]) [31]
+\openout2 = `anexos/diagramas_bpmn.aux'.
 
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 218.
 
-[31
+No file anexos/diagramas_bpmn.tex.
+(./tcc.aux (./introducao/objetivo.aux) (./introducao/motivacao.aux)
+(./introducao/justificativa.aux) (./introducao/organizacao_do_trabalho.aux)
+(./apendices/levantamento_requisitos.aux) (./anexos/documento_visao.aux)
+(./anexos/diagramas_bpmn.aux))
 
-] (./tcc.aux (./introducao/objetivo.aux) (./introducao/motivacao.aux)
-(./introducao/organizacao_do_trabalho.aux)) ) 
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5063 strings out of 492982
- 67896 string characters out of 6132512
- 160331 words of memory out of 5000000
- 8472 multiletter control sequences out of 15000+600000
+ 5098 strings out of 492982
+ 68739 string characters out of 6132512
+ 168599 words of memory out of 5000000
+ 8476 multiletter control sequences out of 15000+600000
  11410 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,47p,504b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on tcc.pdf (33 pages, 103032 bytes).
+ 41i,10n,45p,521b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on tcc.pdf (33 pages, 111441 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
