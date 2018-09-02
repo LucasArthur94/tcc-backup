@@ -2,7 +2,7 @@
 % ========== Opções ==========
 % pnumromarab - Numeração de páginas usando algarismos romanos na parte pré-textual e arábicos na parte textual
 % abnttoc - Forçar paginação no sumário conforme ABNT (inclui "p." na frente das páginas)
-% normalnum - Numeração contínua de figuras e tabelas 
+% normalnum - Numeração contínua de figuras e tabelas
 %	(caso contrário, a numeração é reiniciada a cada capítulo)
 % draftprint - Ajusta as margens para impressão de rascunhos
 %	(reduz a margem interna)
@@ -56,7 +56,7 @@
 % \coorientador{Nome do coorientador (opcional)}
 
 % Tipo de documento
-\tcc{Engenheiro de Computação}
+\tcc{de Computação}
 %\dissertacao{Engenharia Elétrica}
 %\teseDOC{Engenharia Elétrica}
 %\teseLD
@@ -156,30 +156,52 @@ Lista de símbolos...
 
 \part{Introdução}
 
-\include{introducao/objetivo}
 \include{introducao/motivacao}
+\include{introducao/objetivo}
 \include{introducao/justificativa}
 \include{introducao/organizacao_do_trabalho}
 
 \part{Aspectos Conceituais}
 
+\include{aspectos_conceituais/levantamento_requisitos}
+\include{aspectos_conceituais/historias_de_usuarios}
 \include{aspectos_conceituais/casos_de_uso}
-% \include{aspectos_conceituais/levantamento_requisitos}
-% \include{aspectos_conceituais/continuous_delivery}
+\include{aspectos_conceituais/testes}
+\include{aspectos_conceituais/validacoes}
 
 \part{Tecnologias Utilizadas}
+
+\include{tecnologias_utilizadas/frameworks_web}
+\include{tecnologias_utilizadas/banco_de_dados}
+\include{tecnologias_utilizadas/ambientes_de_teste}
+
 \part{Metodologia de Trabalho}
+
+\include{metodologia_de_trabalho/processos_levantamento_requisitos}
+\include{metodologia_de_trabalho/divisao_iteracoes}
+
 \part{Especificação de Requisitos do Sistema}
 
-% =========================================
+\include{especificacao_requisitos_sistema/pontos_levantados_reunioes}
+\include{especificacao_requisitos_sistema/requisitos_funcionais}
+\include{especificacao_requisitos_sistema/requisitos_nao_funcionais}
+
 \part{Projeto e Implementação}
-\part{Testes e Implementação}
+
+\include{projeto_implementacao/elaboracao_estrutura_sistema}
+\include{projeto_implementacao/problemas_iniciais_implementacao}
+
+\part{Teste e Validação}
+
+\include{teste_validacao/validacoes}
+\include{teste_validacao/testes_executados}
+\include{teste_validacao/ambientes_validacao}
+
 \part{Considerações Finais}
 
-% \include{conclusoes_projeto_formatura}
-% \include{contribuicoes}
-% \include{perspectivas_continuidade}
-	
+\include{consideracoes_finais/resultados_alcancados}
+\include{consideracoes_finais/perspectivas}
+
 
 % ========== Referências ==========
 % --- IEEE ---
