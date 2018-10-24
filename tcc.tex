@@ -18,6 +18,7 @@
 % ========== Packages ==========
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{float}
 \usepackage{graphicx,cite,enumerate}
 
 
@@ -28,7 +29,7 @@
 
 % ========== ABNT (requer ABNTeX 2) ==========
 %	http://www.ctan.org/tex-archive/macros/latex/contrib/abntex2
-\usepackage[num]{abntex2cite}
+\usepackage[alf]{abntex2cite}
 
 % Forçar o abntex2 a usar [ ] nas referências ao invés de ( )
 %\citebrackets{[}{]}
@@ -37,11 +38,12 @@
 % ========== Lorem ipsum ==========
 \usepackage{blindtext}
 
-
+% ========== PATH Relativo das Imagens ==========
+\graphicspath{ {imagens/} }
 
 % ========== Opções do documento ==========
 % Título
-\titulo{Título}
+\titulo{Sistema de Gerenciamento de Disciplinas de Projeto de Formatura do PCS}
 
 % Autor
 \autor{Lucas Arthur Felgueiras}
@@ -164,7 +166,7 @@ Lista de símbolos...
 \part{Aspectos Conceituais}
 
 \include{aspectos_conceituais/levantamento_requisitos}
-\include{aspectos_conceituais/historias_de_usuarios}
+\include{aspectos_conceituais/historias_de_usuario}
 \include{aspectos_conceituais/casos_de_uso}
 \include{aspectos_conceituais/testes}
 \include{aspectos_conceituais/validacoes}
@@ -212,17 +214,15 @@ Lista de símbolos...
 %	http://www.ctan.org/tex-archive/macros/latex/contrib/abntex2
 \bibliographystyle{abntex2-num}
 
-\bibliography{}
-
+\bibliography{refs}
 
 % ========== Apêndices (opcional) ==========
 \apendice
-\include{apendices/levantamento_requisitos}
+\include{apendices/documento_visao}
+\include{apendices/diagramas_bpmn}
 
 
 % ========== Anexos (opcional) ==========
 \anexo
-\include{anexos/documento_visao}
-\include{anexos/diagramas_bpmn}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.1)  2 SEP 2018 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.11)  24 OCT 2018 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -588,10 +588,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: dvips.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))
 \Gin@req@height=\dimen131
 \Gin@req@width=\dimen132
@@ -672,34 +672,34 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count135
 \c@blind@pangrammax=\count136
 ) (./tcc.aux
-(./introducao/motivacao.aux) (./introducao/objetivo.aux)
-(./introducao/justificativa.aux) (./introducao/organizacao_do_trabalho.aux)
-(./aspectos_conceituais/levantamento_requisitos.aux)
-(./aspectos_conceituais/historias_de_usuarios.aux)
-(./aspectos_conceituais/casos_de_uso.aux) (./aspectos_conceituais/testes.aux)
-(./aspectos_conceituais/validacoes.aux)
-(./tecnologias_utilizadas/frameworks_web.aux)
-(./tecnologias_utilizadas/banco_de_dados.aux)
-(./tecnologias_utilizadas/ambientes_de_teste.aux)
-(./metodologia_de_trabalho/processos_levantamento_requisitos.aux)
-(./metodologia_de_trabalho/divisao_iteracoes.aux)
-(./especificacao_requisitos_sistema/pontos_levantados_reunioes.aux)
-(./especificacao_requisitos_sistema/requisitos_funcionais.aux)
-(./especificacao_requisitos_sistema/requisitos_nao_funcionais.aux)
-(./projeto_implementacao/elaboracao_estrutura_sistema.aux)
-(./projeto_implementacao/problemas_iniciais_implementacao.aux)
-(./teste_validacao/validacoes.aux) (./teste_validacao/testes_executados.aux)
-(./teste_validacao/ambientes_validacao.aux)
-(./consideracoes_finais/resultados_alcancados.aux)
-(./consideracoes_finais/perspectivas.aux)
-(./apendices/levantamento_requisitos.aux) (./anexos/documento_visao.aux
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-) (./anexos/diagramas_bpmn.aux))
+No file introducao/motivacao.aux.
+No file introducao/objetivo.aux.
+No file introducao/justificativa.aux.
+No file introducao/organizacao_do_trabalho.aux.
+No file aspectos_conceituais/levantamento_requisitos.aux.
+No file aspectos_conceituais/historias_de_usuarios.aux.
+No file aspectos_conceituais/casos_de_uso.aux.
+No file aspectos_conceituais/testes.aux.
+No file aspectos_conceituais/validacoes.aux.
+No file tecnologias_utilizadas/frameworks_web.aux.
+No file tecnologias_utilizadas/banco_de_dados.aux.
+No file tecnologias_utilizadas/ambientes_de_teste.aux.
+No file metodologia_de_trabalho/processos_levantamento_requisitos.aux.
+No file metodologia_de_trabalho/divisao_iteracoes.aux.
+No file especificacao_requisitos_sistema/pontos_levantados_reunioes.aux.
+No file especificacao_requisitos_sistema/requisitos_funcionais.aux.
+No file especificacao_requisitos_sistema/requisitos_nao_funcionais.aux.
+No file projeto_implementacao/elaboracao_estrutura_sistema.aux.
+No file projeto_implementacao/problemas_iniciais_implementacao.aux.
+No file teste_validacao/validacoes.aux.
+No file teste_validacao/testes_executados.aux.
+No file teste_validacao/ambientes_validacao.aux.
+No file consideracoes_finais/resultados_alcancados.aux.
+No file consideracoes_finais/perspectivas.aux.
+No file apendices/levantamento_requisitos.aux.
+No file anexos/documento_visao.aux.
+No file anexos/diagramas_bpmn.aux.
+)
 \openout1 = `tcc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -716,9 +716,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: dvips
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -749,75 +749,10 @@ LaTeX Font Info:    ... okay on input line 78.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
-\scratchdimen=\dimen134
-\scratchbox=\box54
-\nofMPsegments=\count138
-\nofMParguments=\count139
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count140
-\MPscratchDim=\dimen135
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
-\everyMPtoPDFconversion=\toks32
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+]
 Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
@@ -840,509 +775,4 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--82
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-[2
-
-
-] [3
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-
- []
-
-
-Overfull \hbox (17.97797pt too wide) in paragraph at lines 116--117
-[]  $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-[4
-
-] [5
-
-] [6
-
-] (./tcc.lof)
-\tf@lof=\write3
-\openout3 = `tcc.lof'.
-
- [7
-
-] (./tcc.lot)
-\tf@lot=\write4
-\openout4 = `tcc.lot'.
-
- [8
-
-] [9
-
-] (./tcc.toc [10
-
-] [11] [12])
-\tf@toc=\write5
-\openout5 = `tcc.toc'.
-
-
-[13]
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 157.
-
-[14
-
-
-]
-\openout2 = `introducao/motivacao.aux'.
-
- (./introducao/motivacao.tex
-Cap\'{\i }tulo 1.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 159.
-
-[15
-
-
-]
-\openout2 = `introducao/objetivo.aux'.
-
- (./introducao/objetivo.tex
-Cap\'{\i }tulo 2.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 160.
-
-[16
-
-
-
-]
-\openout2 = `introducao/justificativa.aux'.
-
- (./introducao/justificativa.tex
-Cap\'{\i }tulo 3.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 161.
-
-[17
-
-
-
-]
-\openout2 = `introducao/organizacao_do_trabalho.aux'.
-
- (./introducao/organizacao_do_trabalho.tex
-Cap\'{\i }tulo 4.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 162.
-
-[18
-
-
-
-] [19
-
-
-]
-\openout2 = `aspectos_conceituais/levantamento_requisitos.aux'.
-
- (./aspectos_conceituais/levantamento_requisitos.tex
-Cap\'{\i }tulo 5.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 166.
-
-[20
-
-
-]
-\openout2 = `aspectos_conceituais/historias_de_usuarios.aux'.
-
-
-No file aspectos_conceituais/historias_de_usuarios.tex.
-\openout2 = `aspectos_conceituais/casos_de_uso.aux'.
-
-(./aspectos_conceituais/casos_de_uso.tex
-Cap\'{\i }tulo 6.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 168.
-
-[21
-
-
-
-
-
-]
-\openout2 = `aspectos_conceituais/testes.aux'.
-
- (./aspectos_conceituais/testes.tex
-Cap\'{\i }tulo 7.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 169.
-
-[22
-
-
-
-]
-\openout2 = `aspectos_conceituais/validacoes.aux'.
-
- (./aspectos_conceituais/validacoes.tex
-Cap\'{\i }tulo 8.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 170.
-
-[23
-
-
-
-] [24
-
-
-]
-\openout2 = `tecnologias_utilizadas/frameworks_web.aux'.
-
- (./tecnologias_utilizadas/frameworks_web.tex
-Cap\'{\i }tulo 9.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 174.
-
-[25
-
-
-]
-\openout2 = `tecnologias_utilizadas/banco_de_dados.aux'.
-
- (./tecnologias_utilizadas/banco_de_dados.tex
-Cap\'{\i }tulo 10.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 175.
-
-[26
-
-
-
-]
-\openout2 = `tecnologias_utilizadas/ambientes_de_teste.aux'.
-
- (./tecnologias_utilizadas/ambientes_de_teste.tex
-Cap\'{\i }tulo 11.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 176.
-
-[27
-
-
-
-] [28
-
-
-]
-\openout2 = `metodologia_de_trabalho/processos_levantamento_requisitos.aux'.
-
- (./metodologia_de_trabalho/processos_levantamento_requisitos.tex
-Cap\'{\i }tulo 12.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 180.
-
-[29
-
-
-]
-\openout2 = `metodologia_de_trabalho/divisao_iteracoes.aux'.
-
- (./metodologia_de_trabalho/divisao_iteracoes.tex
-Cap\'{\i }tulo 13.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 181.
-
-[30
-
-
-
-] [31
-
-
-]
-\openout2 = `especificacao_requisitos_sistema/pontos_levantados_reunioes.aux'.
-
- (./especificacao_requisitos_sistema/pontos_levantados_reunioes.tex
-Cap\'{\i }tulo 14.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 185.
-
-[32
-
-
-]
-\openout2 = `especificacao_requisitos_sistema/requisitos_funcionais.aux'.
-
- (./especificacao_requisitos_sistema/requisitos_funcionais.tex
-Cap\'{\i }tulo 15.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 186.
-
-[33
-
-
-
-]
-\openout2 = `especificacao_requisitos_sistema/requisitos_nao_funcionais.aux'.
-
- (./especificacao_requisitos_sistema/requisitos_nao_funcionais.tex
-Cap\'{\i }tulo 16.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 187.
-
-[34
-
-
-
-] [35
-
-
-]
-\openout2 = `projeto_implementacao/elaboracao_estrutura_sistema.aux'.
-
- (./projeto_implementacao/elaboracao_estrutura_sistema.tex
-Cap\'{\i }tulo 17.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 191.
-
-[36
-
-
-]
-\openout2 = `projeto_implementacao/problemas_iniciais_implementacao.aux'.
-
- (./projeto_implementacao/problemas_iniciais_implementacao.tex
-Cap\'{\i }tulo 18.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 192.
-
-[37
-
-
-
-] [38
-
-
-]
-\openout2 = `teste_validacao/validacoes.aux'.
-
- (./teste_validacao/validacoes.tex
-Cap\'{\i }tulo 19.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 196.
-
-[39
-
-
-]
-\openout2 = `teste_validacao/testes_executados.aux'.
-
- (./teste_validacao/testes_executados.tex
-Cap\'{\i }tulo 20.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 197.
-
-[40
-
-
-
-]
-\openout2 = `teste_validacao/ambientes_validacao.aux'.
-
- (./teste_validacao/ambientes_validacao.tex
-Cap\'{\i }tulo 21.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 198.
-
-[41
-
-
-
-] [42
-
-
-]
-\openout2 = `consideracoes_finais/resultados_alcancados.aux'.
-
- (./consideracoes_finais/resultados_alcancados.tex
-Cap\'{\i }tulo 22.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 202.
-
-[43
-
-
-]
-\openout2 = `consideracoes_finais/perspectivas.aux'.
-
- (./consideracoes_finais/perspectivas.tex
-Cap\'{\i }tulo 23.
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 203.
-
-[44
-
-
-
-] (./tcc.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 8.
-
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 220.
-
-[45
-
-
-
-]
-\openout2 = `apendices/levantamento_requisitos.aux'.
-
- (./apendices/levantamento_requisitos.tex
-Apendice A.
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 8.
-
-)
-
-Package blindtext Warning: brazil not defined, using English instead.
-(blindtext)                 on input line 220.
-
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 220.
-
-[46
-
-
-]
-\openout2 = `anexos/documento_visao.aux'.
-
- (./anexos/documento_visao.tex
-Anexo A.
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 52.
-
-[47
-
-
-
-] [48] [49] [50] [51]) [52]
-\openout2 = `anexos/diagramas_bpmn.aux'.
-
-
-No file anexos/diagramas_bpmn.tex.
-(./tcc.aux (./introducao/motivacao.aux) (./introducao/objetivo.aux)
-(./introducao/justificativa.aux) (./introducao/organizacao_do_trabalho.aux)
-(./aspectos_conceituais/levantamento_requisitos.aux)
-(./aspectos_conceituais/historias_de_usuarios.aux)
-(./aspectos_conceituais/casos_de_uso.aux) (./aspectos_conceituais/testes.aux)
-(./aspectos_conceituais/validacoes.aux)
-(./tecnologias_utilizadas/frameworks_web.aux)
-(./tecnologias_utilizadas/banco_de_dados.aux)
-(./tecnologias_utilizadas/ambientes_de_teste.aux)
-(./metodologia_de_trabalho/processos_levantamento_requisitos.aux)
-(./metodologia_de_trabalho/divisao_iteracoes.aux)
-(./especificacao_requisitos_sistema/pontos_levantados_reunioes.aux)
-(./especificacao_requisitos_sistema/requisitos_funcionais.aux)
-(./especificacao_requisitos_sistema/requisitos_nao_funcionais.aux)
-(./projeto_implementacao/elaboracao_estrutura_sistema.aux)
-(./projeto_implementacao/problemas_iniciais_implementacao.aux)
-(./teste_validacao/validacoes.aux) (./teste_validacao/testes_executados.aux)
-(./teste_validacao/ambientes_validacao.aux)
-(./consideracoes_finais/resultados_alcancados.aux)
-(./consideracoes_finais/perspectivas.aux)
-(./apendices/levantamento_requisitos.aux) (./anexos/documento_visao.aux)
-(./anexos/diagramas_bpmn.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
-Here is how much of TeX's memory you used:
- 5264 strings out of 492982
- 75009 string characters out of 6134897
- 180702 words of memory out of 5000000
- 8498 multiletter control sequences out of 15000+600000
- 12128 words of font info for 44 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,10n,45p,766b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on tcc.pdf (54 pages, 133435 bytes).
-PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Underfull \hbox (badness 10000) in para

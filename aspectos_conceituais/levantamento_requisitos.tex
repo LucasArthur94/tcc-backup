@@ -1,9 +1,124 @@
 \chapter{Levantamento de Requisitos}
 
 \section{Introdução}
-Para realizar as iterações de desenvolvimento, serão escritos, priorizados e detalhados diversos casos de uso responsáveis por delimitar o comportamento do sistema.
+Em Engenharia de Software, é essencial o momento do levantamento de requisitos, dado que são eles que ditam o funcionamento do software a ser desenvolvido, alinha as expectativas dos \textit{stakeholders} e determinam os requisitos funcionais e não funcionais necessários para a aceitação. Neste projeto, não foi diferente: o primeiro processo de desenvolvimento foi o estudo de técnicas de levantamento de requisitos e uma série de entrevistas com os envolvidos no processo para gerar esses requisitos.
 
-\section{Justificativa}
-Como primeira abordagem a ser estudada para uso, escolhemos o Desenvolvimento Dirigido por Comportamento, que é uma técnica de desenvolvimento ágil que foca mais nas regras de negócio do que em detalhes técnicos em si. A princípio, seria desenvolver testes onde sua escrita seria em um nível maior do que se comparado com o Desenvolvimento Orientado a Testes.
+\section{Processo Genérico}
 
-Porém, um problema encontrado ao usar a abordagem citada acima seria a convergência natural ao uso de histórias de usuário, sendo essencial a participação constante das partes interessadas, o que pode dificultar o andamento do projeto. Sendo assim, descartamos seu uso, optando por linhas com a utilização de Casos de Uso.
+\subsection{\textit{Stakeholders}}
+
+Para o levantamento de requisitos, foi usada uma das técnicas descritas em \cite{kurtbittnerianspence2002}, que consiste em levantar primeiramente os \textit{stakeholders} do projeto. Segundo \cite{kurtbittnerianspence2002}, a definição traduzida de \textit{stakeholder} é a seguinte:
+
+\begin{citacaoLonga}
+"Um indivíduo que é materialmente afetado pelo resultado do
+sistema ou o(s) projeto(s) que produzem o sistema."
+\end{citacaoLonga}
+
+Ou seja, \textit{stakeholders} não são apenas os indivíduos que efetivamente usarão o sistema, mas sim todos os impactados sua existência. O livro divide os \textit{stakeholders} em 5 grupos:
+
+\begin{itemize}
+    \item Usuários: as pessoas que efetivamente usarão o sistema.
+    \item Patrocinadores: os financiadores do projeto de software que gerará o sistema.
+    \item Desenvolvedores: os responsáveis por desenvolver o sistema levantado pelo processo.
+    \item Autoridades: órgãos reguladores que determinam regras para o uso de determinado software.
+    \item Consumidores: empresas que compram esses softwares para serem usados.
+\end{itemize}
+
+\subsection{Entendimento dos Problemas}
+
+Uma vez mapeado os \textit{stakeholders}, partimos para entender agora as dores que cada um possui e o que eles esperam com o produto final a ser desenvolvido. Alguns processos são sugeridos pelo livro\cite{kurtbittnerianspence2002}, como por exemplo:
+
+\begin{itemize}
+    \item Entrevistas: entrevistar os envolvidos e entender diretamente quais são suas dores e expectativas.
+    \item Questionários: São úteis quando há um amplo número de \textit{stakeholders} envolvidos.
+    \item Grupo Focal: Reunião com alguns representantes dos grupos de \textit{stakeholders} para entender e construir uma visão única sobre o projeto.
+    \item Quadros de Aviso: É um tipo particular de grupo focal, onde o quadro serve como unificador da visão, com a diferença de não ter todos reunidos ao mesmo tempo.
+    \item \textit{Workshops}: Eventos avisados com antecedência para entender melhor sobre o sistema, com a participação dos envolvidos.
+    \item Revisões: Reuniões informais com o intuito de revisar documentos gerados com alguns envolvidos.
+    \item Encenação: É uma técnica facilitadora usada em conjunto com \textit{workshops} para obter informações mais específicas ou \textit{feedbacks}.
+\end{itemize}
+
+Essencialmente, usando essas técnicas, devemos ser capazes de estabelecer relações do tipo problema-solução do sistema\cite{kurtbittnerianspence2002}:
+
+\begin{itemize}
+    \item O problema: a descrição do problema encontrado.
+    \item Afeta: os \textit{stakeholders} afetados com o problema.
+    \item O impacto: o que ele causa no dia-a-dia dos envolvidos.
+    \item Uma solução boa: benefícios-chave da solução a ser proposta.
+\end{itemize}
+
+
+Com essa listagem de problemas levantados pelo processo de levantamento de requisitos, finalmente podemos partir para o levantamento real de requisitos, estabelecendo uma visão unificada do processo como um todo e como o software vai atuar no processo. Para isso, é saudável a elaboração de um documento unificando os pontos de vista dos \textit{stakeholders} e estabelecendo o que de fato será o sistema a ser desenvolvido. Esse documento é o Documento de Visão.
+
+\subsection{Documento de Visão}
+
+O documento de visão, segundo o livro\cite{kurtbittnerianspence2002}, traz a seguinte definição (traduzida):
+
+\begin{citacaoLonga}
+O Documento de Visão é o artefato do Rational Unified Process\cite{ibm2011} que capta todas as informações de requisitos. Como toda documentação de requisitos, seu objetivo principal é a comunicação.
+\end{citacaoLonga}
+
+Essencialmente, o Documento de Visão é o documento que reforça que todos os envolvidos estão alinhados sobre o que é o sistema, o que ele fará e como será seu processo-base de desenvolvimento, priorização e afins. O documento deve atender quatro funcionalidades básicas:
+
+\begin{itemize}
+    \item Base de alto nível (às vezes contratual) para os requisitos técnicos
+    \item Processo de aprovação do projeto
+    \item Maneiras de estabelecer o \textit{feedback} inicial
+    \item Priorização e escopo do sistema
+\end{itemize}
+
+Existem diversos modelos de Documento de Visão, porém, em sua essência, atendem os seguintes tópicos\cite{kurtbittnerianspence2002}:
+
+\begin{enumerate}
+    \item Posicionamento: Como o sistema irá se posicionar no quesito de negócios? Há concorrentes que já resolvem o problema? Quais são seus diferenciais em relação a eles?
+    \item \textit{Stakeholders} e usuários: Quem são os envolvidos direta e indiretamente com o desenvolvimento e a existência do sistema?
+    \item Necessidades chave: Quais são as demandas que realmente precisam estar nos planos do sistema para satisfazer os envolvidos?
+    \item Visão geral do produto: O que é o produto de fato? Quais são suas dependências, capacidades e alternativas ao seu desenvolvimento?
+    \item Funcionalidades: Quais são as funcionalidades em alto nível do sistema, para que elas resolvam as necessidades chave listadas anteriormente?
+    \item Outros requisitos do produto: Quais são os outros requisitos do sistema que não foram capturados como funcionalidades?
+\end{enumerate}
+
+Com o documento de visão em mãos, resta especificar de fato as funcionalidades do sistema usando uma metodologia adequada. No decorrer do trabalho, serão discutidas duas metodologias: Histórias de Usuário e Casos de Uso.
+
+\section{Processo para o Projeto}
+
+\subsection{\textit{Stakeholders}}
+
+No caso do projeto, foi usado como base alguns processos de levantamento de requisitos do livro\cite{kurtbittnerianspence2002}.
+Primeiramente, foram estabelecidos grupos de \textit{stakeholders} envolvidos com o projeto:
+
+\begin{itemize}
+    \item Coordenador: Responsáveis por administrarem as disciplinas de TCC 1 e 2 para os cursos de Engenharia de Computação Semestrais e Quadrimestrais.
+    \item Orientador: Responsável por construir com os alunos a monografia.
+    \item Técnico de Operação: Responsável por administrar novas funcionalidades futuras do sistema.
+    \item Técnico do Evento: Responsável por cuidar da parte de infraestrutura dos eventos a serem realizados.
+    \item Alunos: Os cursantes das disciplinas de TCC 1 e 2.
+    \item Avaliador Teórico: Avaliam os projetos realizados, durante a banca de defesa da monografia.
+    \item Avaliador Prático: Avaliam os projetos realizados, durante a feira de projetos de formatura.
+\end{itemize}
+
+Após entender melhor os grupos existentes de envolvidos, foram realizadas entrevistas com alguns desses \textit{stakeholders}, dentre eles:
+
+\begin{itemize}
+    \item Coordenadores da Disciplina: Profs. João Batista e Paulo Cugnasca
+    \item Técnico Responsável pela Organização da Feira: Nilton Araújo
+    \item Orientador e Avaliador Teórico: Prof. Fábio Levy Siqueira
+\end{itemize}
+
+Para o processo em questão, é valido reforçar alguns pontos importantes:
+
+\begin{itemize}
+    \item São 2 professores coordenadores, 2 técnicos, cerca de 50 alunos por ano de TCC e cerca de 20 professores orientadores do departamento de PCS.
+    \item O ciclo da disciplinas de TCC dura 1 ano, sendo metade do tempo de especificação e metade de implementação.
+    \item Atualmente, há a plataforma Tidia-AE existente para administrar as disciplinas. Porém, ela serve apenas como repositório de arquivos, sem a participação direta dos orientadores e sem infraestrutura de automação e comunicação rápida entre os envolvidos.
+    \item Além disso, há o site do departamento, onde ficam as monografias mais recentes, também como simples repositório de arquivos.
+\end{itemize}
+
+Com isso, foram realizadas entrevistas com as pessoas citadas acima, para entender melhor o processo. A partir dessas entrevisas, diagramas de Modelo e Notação de Processos de Negócio (ou Business Process Model and Notation - BPMN) foram modelados para compreender o processo atual e, a partir dele, levantar os problemas-soluções do software, estabelecer o documento de visão e elaborar os casos de uso. Os diagramas BPMN estão na seção de apêndices do trabalho.
+
+\subsection{Entendimento dos Problemas e Documento de Visão}
+
+Após a geração do processo, os diagramas foram revistos com os coordenadores, para entender melhor o funcionamento e levantar os problemas encontrados. E, com base nesses problemas, o documento de visão foi gerado. A cópia da última versão está como apêndice deste trabalho.
+
+Por fim, com a geração do documento de visão, foi possível seguir para a próxima etapa de especificação mais detalhada do sistema a ser desenvolvido, que será discutida nos capítulos a seguir.
+
