@@ -19,7 +19,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amsthm,amsfonts,amssymb}
 \usepackage{float}
-\usepackage{graphicx,cite,enumerate}
+\usepackage{graphicx,hyperref,cite,enumerate}
 
 
 % ========== Language options ==========
@@ -143,11 +143,11 @@ Abstract...
 \listadetabelas
 
 % ========== Listas definidas pelo usuário (opcional) ==========
-\begin{pretextualsection}{Lista de símbolos}
+% \begin{pretextualsection}{Lista de símbolos}
 
-Lista de símbolos...
+% Lista de símbolos...
 
-\end{pretextualsection}
+% \end{pretextualsection}
 
 % ========== Sumário ==========
 \sumario
@@ -156,53 +156,21 @@ Lista de símbolos...
 
 % ========== Elementos textuais ==========
 
-\part{Introdução}
+\include{introducao}
 
-\include{introducao/motivacao}
-\include{introducao/objetivo}
-\include{introducao/justificativa}
-\include{introducao/organizacao_do_trabalho}
+\include{aspectos_conceituais}
 
-\part{Aspectos Conceituais}
+\include{tecnologias_utilizadas}
 
-\include{aspectos_conceituais/levantamento_requisitos}
-\include{aspectos_conceituais/historias_de_usuario}
-\include{aspectos_conceituais/casos_de_uso}
-\include{aspectos_conceituais/testes}
-\include{aspectos_conceituais/validacoes}
+\include{metodologia_trabalho}
 
-\part{Tecnologias Utilizadas}
+\include{especificacao_requisitos_sistema}
 
-\include{tecnologias_utilizadas/frameworks_web}
-\include{tecnologias_utilizadas/banco_de_dados}
-\include{tecnologias_utilizadas/ambientes_de_teste}
+\include{projeto_implementacao}
 
-\part{Metodologia de Trabalho}
+\include{teste_validacao}
 
-\include{metodologia_de_trabalho/processos_levantamento_requisitos}
-\include{metodologia_de_trabalho/divisao_iteracoes}
-
-\part{Especificação de Requisitos do Sistema}
-
-\include{especificacao_requisitos_sistema/pontos_levantados_reunioes}
-\include{especificacao_requisitos_sistema/requisitos_funcionais}
-\include{especificacao_requisitos_sistema/requisitos_nao_funcionais}
-
-\part{Projeto e Implementação}
-
-\include{projeto_implementacao/elaboracao_estrutura_sistema}
-\include{projeto_implementacao/problemas_iniciais_implementacao}
-
-\part{Teste e Validação}
-
-\include{teste_validacao/validacoes}
-\include{teste_validacao/testes_executados}
-\include{teste_validacao/ambientes_validacao}
-
-\part{Considerações Finais}
-
-\include{consideracoes_finais/resultados_alcancados}
-\include{consideracoes_finais/perspectivas}
+\include{consideracoes_finais}
 
 
 % ========== Referências ==========
@@ -220,6 +188,7 @@ Lista de símbolos...
 \apendice
 \include{apendices/documento_visao}
 \include{apendices/diagramas_bpmn}
+\include{apendices/casos_de_uso}
 
 
 % ========== Anexos (opcional) ==========

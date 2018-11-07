@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.11)  24 OCT 2018 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2018.10.11)  24 OCT 2018 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -576,6 +576,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count115
+\float@exts=\toks29
+\float@box=\box54
+\@float@everytoks=\toks30
+\@floatcapt=\box55
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -603,7 +611,7 @@ Package: cite 2015/02/27  v 5.5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks29
+\@enLab=\toks31
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
@@ -616,11 +624,11 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
-\babel@savecnt=\count115
+\babel@savecnt=\count116
 \U@D=\dimen133
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count116
+\bbl@dirlevel=\count117
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
@@ -635,17 +643,17 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 \minimumbiblabelwidth=\skip68
 \ABCIauxlen=\skip69
-\c@ABCIaux=\count117
-\c@ABCImax=\count118
+\c@ABCIaux=\count118
+\c@ABCImax=\count119
 
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip70
 LaTeX Info: Redefining \newblock on input line 591.
-LaTeX Info: Redefining \cite on input line 862.
-LaTeX Info: Redefining \citeonline on input line 866.
-\ABCItoken=\toks30
+LaTeX Info: Redefining \cite on input line 618.
+LaTeX Info: Redefining \citeonline on input line 677.
+\ABCItoken=\toks32
 )
 (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -653,67 +661,40 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count119
-\c@Blindtext=\count120
-\c@blind@countparstart=\count121
-\blind@countxx=\count122
-\blindtext@numBlindtext=\count123
-\blind@countyy=\count124
-\c@blindlist=\count125
-\c@blindlistlevel=\count126
-\c@blindlist@level=\count127
-\blind@listitem=\count128
-\c@blind@listcount=\count129
-\c@blind@levelcount=\count130
-\blind@mathformula=\count131
-\blind@Mathformula=\count132
-\c@blind@randomcount=\count133
-\c@blind@randommax=\count134
-\c@blind@pangramcount=\count135
-\c@blind@pangrammax=\count136
+\c@blindtext=\count120
+\c@Blindtext=\count121
+\c@blind@countparstart=\count122
+\blind@countxx=\count123
+\blindtext@numBlindtext=\count124
+\blind@countyy=\count125
+\c@blindlist=\count126
+\c@blindlistlevel=\count127
+\c@blindlist@level=\count128
+\blind@listitem=\count129
+\c@blind@listcount=\count130
+\c@blind@levelcount=\count131
+\blind@mathformula=\count132
+\blind@Mathformula=\count133
+\c@blind@randomcount=\count134
+\c@blind@randommax=\count135
+\c@blind@pangramcount=\count136
+\c@blind@pangrammax=\count137
 ) (./tcc.aux
-No file introducao/motivacao.aux.
-No file introducao/objetivo.aux.
-No file introducao/justificativa.aux.
-No file introducao/organizacao_do_trabalho.aux.
-No file aspectos_conceituais/levantamento_requisitos.aux.
-No file aspectos_conceituais/historias_de_usuarios.aux.
-No file aspectos_conceituais/casos_de_uso.aux.
-No file aspectos_conceituais/testes.aux.
-No file aspectos_conceituais/validacoes.aux.
-No file tecnologias_utilizadas/frameworks_web.aux.
-No file tecnologias_utilizadas/banco_de_dados.aux.
-No file tecnologias_utilizadas/ambientes_de_teste.aux.
-No file metodologia_de_trabalho/processos_levantamento_requisitos.aux.
-No file metodologia_de_trabalho/divisao_iteracoes.aux.
-No file especificacao_requisitos_sistema/pontos_levantados_reunioes.aux.
-No file especificacao_requisitos_sistema/requisitos_funcionais.aux.
-No file especificacao_requisitos_sistema/requisitos_nao_funcionais.aux.
-No file projeto_implementacao/elaboracao_estrutura_sistema.aux.
-No file projeto_implementacao/problemas_iniciais_implementacao.aux.
-No file teste_validacao/validacoes.aux.
-No file teste_validacao/testes_executados.aux.
-No file teste_validacao/ambientes_validacao.aux.
-No file consideracoes_finais/resultados_alcancados.aux.
-No file consideracoes_finais/perspectivas.aux.
-No file apendices/levantamento_requisitos.aux.
-No file anexos/documento_visao.aux.
-No file anexos/diagramas_bpmn.aux.
-)
+(./introducao/motivacao.aux))
 \openout1 = `tcc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -753,26 +734,528 @@ LaTeX Font Info:    ... okay on input line 78.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+LaTeX Font Info:    Try loading font information for U+msa on input line 83.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+LaTeX Font Info:    Try loading font information for U+msb on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in para
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+[2
+
+
+] [3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+
+ []
+
+
+Overfull \hbox (17.97797pt too wide) in paragraph at lines 118--119
+[]  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+[4
+
+] [5
+
+] [6
+
+] (./tcc.lof)
+\tf@lof=\write3
+\openout3 = `tcc.lof'.
+
+ [7
+
+] (./tcc.lot)
+\tf@lot=\write4
+\openout4 = `tcc.lot'.
+
+ [8
+
+] [9
+
+] (./tcc.toc)
+\tf@toc=\write5
+\openout5 = `tcc.toc'.
+
+ [10
+
+]
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 159.
+
+[11
+
+
+]
+\openout2 = `introducao/motivacao.aux'.
+
+ (./introducao/motivacao.tex
+Cap\'{\i }tulo 1.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 161.
+
+[12
+
+
+]
+\openout2 = `introducao/objetivo.aux'.
+
+ (./introducao/objetivo.tex
+Cap\'{\i }tulo 2.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 162.
+
+[13
+
+
+
+]
+\openout2 = `introducao/justificativa.aux'.
+
+ (./introducao/justificativa.tex
+Cap\'{\i }tulo 3.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 163.
+
+[14
+
+
+
+]
+\openout2 = `introducao/organizacao_do_trabalho.aux'.
+
+ (./introducao/organizacao_do_trabalho.tex
+Cap\'{\i }tulo 4.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 164.
+
+[15
+
+
+
+] [16
+
+
+]
+\openout2 = `aspectos_conceituais/levantamento_requisitos.aux'.
+
+ (./aspectos_conceituais/levantamento_requisitos.tex
+Cap\'{\i }tulo 5.
+
+LaTeX Warning: Citation `kurtbittnerianspence2002' on page 17 undefined on inpu
+t line 10.
+
+
+LaTeX Warning: Citation `kurtbittnerianspence2002' on page 17 undefined on inpu
+t line 10.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 25.
+
+[17
+
+
+]
+
+LaTeX Warning: Citation `kurtbittnerianspence2002' on page 18 undefined on inpu
+t line 29.
+
+
+LaTeX Warning: Citation `kurtbittnerianspence2002' on page 18 undefined on inpu
+t line 41.
+
+[18]
+
+LaTeX Warning: Citation `kurtbittnerianspence2002' on page 19 undefined on inpu
+t line 55.
+
+
+LaTeX Warning: Citation `ibm2011' on page 19 undefined on input line 58.
+
+
+LaTeX Warning: Citation `kurtbittnerianspence2002' on page 19 undefined on inpu
+t line 70.
+
+[19]
+
+LaTeX Warning: Citation `kurtbittnerianspence2002' on page 20 undefined on inpu
+t line 87.
+
+[20]) [21] [22]
+\openout2 = `aspectos_conceituais/historias_de_usuario.aux'.
+
+ (./aspectos_conceituais/historias_de_usuario.tex
+Cap\'{\i }tulo 6.
+
+LaTeX Warning: Citation `jonathanrasmusson' on page 23 undefined on input line 
+4.
+
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 169.
+
+[23
+
+
+
+]
+\openout2 = `aspectos_conceituais/casos_de_uso.aux'.
+
+ (./aspectos_conceituais/casos_de_uso.tex
+Cap\'{\i }tulo 7.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 170.
+
+[24
+
+
+
+]
+\openout2 = `aspectos_conceituais/testes.aux'.
+
+
+No file aspectos_conceituais/testes.tex.
+\openout2 = `aspectos_conceituais/validacoes.aux'.
+
+No file aspectos_conceituais/validacoes.tex.
+[25
+
+
+
+
+
+
+]
+\openout2 = `tecnologias_utilizadas/frameworks_web.aux'.
+
+ (./tecnologias_utilizadas/frameworks_web.tex
+Cap\'{\i }tulo 8.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 176.
+
+[26
+
+
+]
+\openout2 = `tecnologias_utilizadas/banco_de_dados.aux'.
+
+ (./tecnologias_utilizadas/banco_de_dados.tex
+Cap\'{\i }tulo 9.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 177.
+
+[27
+
+
+
+]
+\openout2 = `tecnologias_utilizadas/ambientes_de_teste.aux'.
+
+ (./tecnologias_utilizadas/ambientes_de_teste.tex
+Cap\'{\i }tulo 10.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 178.
+
+[28
+
+
+
+] [29
+
+
+]
+\openout2 = `metodologia_de_trabalho/processos_levantamento_requisitos.aux'.
+
+ (./metodologia_de_trabalho/processos_levantamento_requisitos.tex
+Cap\'{\i }tulo 11.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 182.
+
+[30
+
+
+]
+\openout2 = `metodologia_de_trabalho/divisao_iteracoes.aux'.
+
+ (./metodologia_de_trabalho/divisao_iteracoes.tex
+Cap\'{\i }tulo 12.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 183.
+
+[31
+
+
+
+] [32
+
+
+]
+\openout2 = `especificacao_requisitos_sistema/pontos_levantados_reunioes.aux'.
+
+ (./especificacao_requisitos_sistema/pontos_levantados_reunioes.tex
+Cap\'{\i }tulo 13.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 187.
+
+[33
+
+
+]
+\openout2 = `especificacao_requisitos_sistema/requisitos_funcionais.aux'.
+
+ (./especificacao_requisitos_sistema/requisitos_funcionais.tex
+Cap\'{\i }tulo 14.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 188.
+
+[34
+
+
+
+]
+\openout2 = `especificacao_requisitos_sistema/requisitos_nao_funcionais.aux'.
+
+ (./especificacao_requisitos_sistema/requisitos_nao_funcionais.tex
+Cap\'{\i }tulo 15.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 189.
+
+[35
+
+
+
+] [36
+
+
+]
+\openout2 = `projeto_implementacao/elaboracao_estrutura_sistema.aux'.
+
+ (./projeto_implementacao/elaboracao_estrutura_sistema.tex
+Cap\'{\i }tulo 16.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 193.
+
+[37
+
+
+]
+\openout2 = `projeto_implementacao/problemas_iniciais_implementacao.aux'.
+
+ (./projeto_implementacao/problemas_iniciais_implementacao.tex
+Cap\'{\i }tulo 17.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 194.
+
+[38
+
+
+
+] [39
+
+
+]
+\openout2 = `teste_validacao/validacoes.aux'.
+
+ (./teste_validacao/validacoes.tex
+Cap\'{\i }tulo 18.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 198.
+
+[40
+
+
+]
+\openout2 = `teste_validacao/testes_executados.aux'.
+
+ (./teste_validacao/testes_executados.tex
+Cap\'{\i }tulo 19.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 199.
+
+[41
+
+
+
+]
+\openout2 = `teste_validacao/ambientes_validacao.aux'.
+
+ (./teste_validacao/ambientes_validacao.tex
+Cap\'{\i }tulo 20.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 200.
+
+[42
+
+
+
+] [43
+
+
+]
+\openout2 = `consideracoes_finais/resultados_alcancados.aux'.
+
+ (./consideracoes_finais/resultados_alcancados.tex
+Cap\'{\i }tulo 21.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 204.
+
+[44
+
+
+]
+\openout2 = `consideracoes_finais/perspectivas.aux'.
+
+ (./consideracoes_finais/perspectivas.tex
+Cap\'{\i }tulo 22.
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 205.
+
+[45
+
+
+
+] (./tcc.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 8.
+
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 221.
+
+[46
+
+
+
+]
+\openout2 = `apendices/documento_visao.aux'.
+
+ (./apendices/documento_visao.tex
+Apendice A.
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 52.
+
+[47
+
+
+] [48] [49] [50] [51]) [52]
+\openout2 = `apendices/diagramas_bpmn.aux'.
+
+ (./apendices/diagramas_bpmn.tex
+Apendice B.
+
+LaTeX Warning: Citation `drawio' on page 53 undefined on input line 9.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 15.
+
+[53
+
+
+
+]
+
+! LaTeX Error: Cannot determine size of graphic in imagens/bpmn-tcc1.png (no Bo
+undingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...e=90, origin=c, scale=0.35]{bpmn-tcc1.png}
+                                                  
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.20 ...e=90, origin=c, scale=0.35]{bpmn-tcc1.png}
+                                                  
+? e
+ 
+Here is how much of TeX's memory you used:
+ 4365 strings out of 492983
+ 57246 string characters out of 6134921
+ 151856 words of memory out of 5000000
+ 7743 multiletter control sequences out of 15000+600000
+ 12436 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,10n,45p,1542b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on tcc.dvi (55 pages, 46340 bytes).
